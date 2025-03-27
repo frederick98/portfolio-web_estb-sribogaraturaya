@@ -1,0 +1,217 @@
+/* Section 1 */
+.section-1-left img {
+    width: 100%;
+    height: auto;
+}
+.section-1 .section-1-right {
+    position: relative;
+    padding: 0 15% 0 15%;
+}
+.section-1 .section-1-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.2%;
+    /* or 71px */
+    color: #307430;
+}
+.section-1 .section-1-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #307430;
+}
+.section-1 .sub-1 {
+    /* margin-bottom: 80px; */
+}
+.section-1 .sub-2 {
+    margin: 0 5% 2% 5%;
+}
+.section-1 .sub-2 .section-1-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.2%;
+    /* or 71px */
+    color: #307430;
+    margin-left: 20px;
+}
+.section-1 .sub-2 .section-1-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+    letter-spacing: 0.05em;
+    color: #307430;
+}
+
+/* Section 2 */
+.section-2 {
+    background-color: #307430;
+    background-image: url('../images/assets/about/pattern_subtle-17.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.section-2 .section-2-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 99.18%;
+    /* or 32px */
+    color: #ffffff;
+    padding: 0 10px 2% 0;
+}
+.section-2 .section-2-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    padding: 0 0 0 0;
+}
+.section-2 .section-2-right {
+}
+.section-2 .section-2-right-content {
+    height: 560px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+}
+.section-2 .section-2-right-content img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.section-2 .section-2-right-content .responsive img {
+    width: 100%;
+    height: auto;
+}
+.section-2 .section-2-right-content .a-left.inv-slide.prev.slick-prev {
+    width: 10%;
+    height: 50px;
+    object-fit: contain;
+    /* z-index: 1; */
+    top: 85%;
+    left: -20%;
+}
+.section-2 .section-2-right-content .a-right.inv-slide.next.slick-next {
+    width: 10%;
+    height: 50px;
+    object-fit: contain;
+    top: 85%;
+    right: 100%;
+}
+
+/* Section 3 */
+.section-3 {
+    margin: 0 0 5% 0;
+}
+.section-3 .section-3-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.2%;
+    /* or 71px */
+    color: #307430;
+    padding: 30px 0 30px 30px;
+    margin: 0 5% 0 5%;
+}
+.section-3 .labelField {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #307430;
+}
+.section-3 .textField {
+    height: 70px;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    background-image: none;
+    background-clip: padding-box;
+}
+
+/* [Mobile Responsive] */
+@media (max-width: 480px) {
+    .section-1 .sub-1 .row {
+        --bs-gutter-x: 0 !important;
+    }
+    .section-1 .section-1-right {
+        padding: 0 5% 0 5%;
+    }
+    .section-1 .section-1-title {
+        font-size: 24px;
+    }
+    .section-1 .section-1-text {
+        font-size: 18px;
+    }
+    .section-1 .sub-2 .section-1-title {
+        font-size: 24px;
+        margin: 0 0 0 0;
+    }
+    .section-1 .sub-2 .section-1-text {
+        font-size: 18px;
+    }
+    .section-2 {
+        padding: 0 5% 0 5%;
+    }
+    .section-2 .section-2-title {
+        font-size: 24px;
+        padding: 5% 0 0 0;
+        text-align: left;
+    }
+    .section-2 .section-2-text {
+        font-size: 16px;
+    }
+    .section-2 .section-2-right-content {
+        height: 220px;
+        position: inherit;
+    }
+    .section-3 .section-3-title {
+        font-size: 24px;
+        padding: 0;
+        margin: 5%;
+    }
+    .section-3 .labelField {
+        font-size: 16px;
+    }
+    .section-3 .textField {
+        height: 30px;
+        font-size: 16px;
+    }
+}
+
+/* Imported */
+@media screen and (width: 1080px) and (height: 2160px) {
+    .section-2 .section-2-right-content .a-right.inv-slide.next.slick-next {
+        top: 400px;
+    }
+
+    .section-2 .section-2-right-content .a-left.inv-slide.prev.slick-prev {
+        top: 400px;
+    }
+
+    .section-2 .section-2-right-content {
+        height: 470px;
+    }
+}

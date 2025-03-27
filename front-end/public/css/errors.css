@@ -1,0 +1,58 @@
+/* Page: 404 Stylings */
+
+.section-1 {
+    margin: 5% 0 10% 0;
+}
+.section-1 .section-1-img {
+    width: 459px;
+    height: 238px;
+    margin: 50px auto 0;
+}
+
+.section-1 .section-1-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+    text-align: center;
+    color: #307430;
+}
+.section-1,
+.section-1-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #307430;
+}
+.section-1 .section-1-btn {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    align-items: center;
+    text-align: center;
+    display: absolute;
+    border-radius: 23px;
+    color: #ffffff;
+}
+.section-1 .section-1-btn :hover {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    align-items: center;
+    text-align: center;
+    display: absolute;
+    border-radius: 23px;
+    color: #ffffff;
+    background-color: #f3c716;
+}

@@ -1,0 +1,319 @@
+html,
+body {
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+}
+
+.news.breadcrumb-item a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #747474;
+}
+
+.news-header.card-header h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+
+    color: #747474;
+}
+
+.news-header.card-header span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+
+    color: #747474;
+}
+
+select.news.select2 option.selected {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    color: #6e6e6e;
+}
+
+.news-header.card-header a {
+    background: #307430;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    align-items: center;
+    text-align: center;
+
+    /* Global/09. White */
+
+    color: #ffffff;
+}
+
+.news-header.card-header a.news-layout {
+    background: #c4a013;
+}
+
+/* card body */
+.news-s.description-block p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    align-items: center;
+    text-align: left;
+
+    /* abu dashboard */
+
+    color: #a5a5a5;
+}
+
+/* label.about-label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    align-items: center;
+
+    color: #575757;
+} */
+
+.news-r.description-block p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    align-items: center;
+    text-align: right;
+
+    color: #307430;
+}
+
+.news-card.card-body h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+
+    color: #747474;
+}
+
+.news-card.card-body span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+
+    color: #747474;
+}
+
+/* overlay */
+
+.news-banner-body .card.card-widget.widget-user {
+    background: #ffffff;
+    /* stroke dl */
+
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    position: relative;
+    transition: all 0.5s ease-in;
+}
+
+.news-banner-body.widget-user-header {
+    height: 162px;
+}
+
+.news.widget-user-header {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 10px;
+
+    visibility: none;
+    transition: 0.5s ease;
+    background-color: #599059;
+}
+
+.card.card-widget.widget-user:hover .__overlay {
+    opacity: 0.95;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.overlay__text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay__text a i.fas.fa-trash-alt {
+    position: relative;
+    top: -120px;
+    left: 260px;
+    color: rgb(255, 255, 255);
+}
+
+.news-banner-body.card-header h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+
+    /* abu dashboard */
+
+    color: #a5a5a5;
+}
+
+.news-banner-body.card-header h1 {
+    display: inline-flex;
+    height: 70px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #307430;
+}
+
+/* create news */
+.news-card.card-header h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    align-items: center;
+    letter-spacing: 0.5px;
+
+    /* SRR Primary/SRR Primary 50 */
+
+    color: #307430;
+}
+
+.news-create-image.form-group {
+    border: 1px dashed #1d461d;
+    border-radius: 10px;
+}
+
+.subUploads i {
+    color: #1d461d;
+    font-size: 48px;
+
+    position: absolute;
+    top: 130px;
+    left: 220px;
+}
+
+.subUploads span {
+    position: absolute;
+    top: 200px;
+    left: 135px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    align-items: center;
+    text-align: center;
+
+    /* SRR Primary/SRR Primary 70 */
+
+    color: #1d461d;
+}
+
+.news-create.card-footer a {
+    background: #307430;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #ffffff;
+}
+/* [Responsive] */
+
+@media screen and (width: 1680px) {
+    .overlay__text a i.fas.fa-trash-alt {
+        position: relative;
+        top: -145px;
+        left: 225px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media (max-width: 1440px) {
+    .overlay__text a i.fas.fa-trash-alt {
+        position: relative;
+        top: -145px;
+        left: 190px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (width: 1280px) {
+    .overlay__text a i.fas.fa-trash-alt {
+        position: relative;
+        top: -145px;
+        left: 160px;
+        color: rgb(255, 255, 255);
+    }
+}

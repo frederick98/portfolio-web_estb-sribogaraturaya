@@ -1,0 +1,85 @@
+/* Page: Contact Us Styling Lists */
+.labelField {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #307430;
+}
+.textField {
+    height: 70px;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    background-image: none;
+    background-clip: padding-box;
+}
+.section-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #307430;
+    padding: 5% 0 5% 5%;
+}
+.form-group > button {
+    color: #ffffff;
+}
+.form-group > button:hover {
+    background-color: #307430;
+    color: #ffffff;
+}
+
+/* [Mobile Responsive] */
+@media (max-width: 480px) {
+    .section-title {
+        padding: 2% 0 2% 0;
+        font-size: 32px;
+        text-align: center;
+    }
+    .labelField {
+        font-size: 16px;
+    }
+    .textField {
+        height: 30px;
+        font-size: 16px;
+    }
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+}
+
+/* [Imported] */
+.contact-us-header {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    /* or 86px */
+
+    margin-left: 50px;
+    text-align: left;
+    color: #307430;
+}
+
+@media screen and (max-width: 445px) {
+    .contact-us-header {
+        margin-left: 20px;
+        font-size: 62px;
+    }
+
+    .titleSectionContact {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 120%;
+        color: #307430;
+    }
+}

@@ -1,0 +1,415 @@
+html,body {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+}
+
+.about.breadcrumb-item a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    color: #747474;
+}
+
+.about-s.description-block p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    align-items: center;
+    text-align: left;
+
+    /* abu dashboard */
+
+    color: #A5A5A5;
+
+}
+
+ label.about-label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    align-items: center;
+
+    /* warna text */
+
+    color: #575757;
+}
+
+.about-r.description-block p {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    align-items: center;
+    text-align: right;
+    
+    color: #307430;
+
+}
+
+.about-banner.card-header h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    align-items: center;
+    letter-spacing: 0.5px;
+
+    /* SRR Primary/SRR Primary 50 */
+
+    color: #307430;
+}
+
+.about-banner.card-body h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+
+    color: #747474;
+}
+
+.about-banner.card-body span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    
+    color: #747474;
+}
+
+.about-banner.card-body input.placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    align-items: center;
+
+    color: #6E6E6E;
+}
+
+/* overlay */
+
+.about-banner-body .card.card-widget.widget-user {
+    background: #FFFFFF;
+    /* stroke dl */
+
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    position: relative;
+    transition: all .5s ease-in;
+}
+
+.about-banner-body.widget-user-header {
+    max-height: 115px;
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 10px;
+
+    visibility: none;
+    transition: .5s ease;
+    background-color: #599059;
+  }
+  
+.card.card-widget.widget-user:hover .__overlay {
+    opacity: 0.95;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  
+.overlay__text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.overlay__text a i.fas.fa-trash-alt {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+  }
+
+.about-banner-body.card-header h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    /* abu dashboard */
+    
+    color: #A5A5A5;
+}
+
+.about-banner-body.card-header h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #307430;
+}
+
+/* about mission */
+
+.about-mission.card-header h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    align-items: center;
+    letter-spacing: 0.5px;
+
+    /* SRR Primary/SRR Primary 50 */
+
+    color: #307430;
+}
+
+.about-mission-content-left {
+    width: 70px;
+
+}
+
+.about-mission-content-left img {
+    width: 100%;
+    height: 70px;
+}
+
+
+.about-value.card-header h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    align-items: center;
+    letter-spacing: 0.5px;
+
+    /* SRR Primary/SRR Primary 50 */
+
+    color: #307430;
+}
+
+.about-value-content-img {
+    width: 450px;
+}
+
+.about-value-content-img img {
+    width: 100%;
+    height: 350px;
+}
+
+.about-seo.card-header h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    align-items: center;
+    letter-spacing: 0.5px;
+
+    /* SRR Primary/SRR Primary 50 */
+
+    color: #307430;
+}
+
+a.banner.btn-lg{
+    background: #307430;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    align-items: center;
+    text-align: center;
+
+    /* Global/09. White */
+
+    color: #FFFFFF;
+}
+
+
+/* About Us Create Add Banner */
+.banner-create.card-header h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    
+    /* SRR Primary/SRR Primary 50 */
+    
+    color: #307430;
+}
+
+.banner-create.card-footer a {
+    background: #307430;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.banner-create-image.form-group {
+    border: 1px dashed #1D461D;
+    border-radius: 10px;
+}
+
+.banner-card-content.card-default {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subUploads i {
+    color: #1D461D;
+    font-size: 48px;
+
+    position: absolute;
+    top: 130px;
+    left: 220px;
+
+}
+
+.subUploads span {
+
+    position: absolute;
+    top: 200px;
+    left: 115px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* SRR Primary/SRR Primary 70 */
+    
+    color: #1D461D;
+}
+
+.banner-input label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    align-items: center;
+
+    /* warna text */
+
+    color: #575757;
+}
+
+.banner-input option {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    align-items: center;
+
+    /* warna text */
+
+    color: #575757;
+}
+
+/* input.quote-values {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 160px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-shadow: inset 0 0 0 rgb(0 0 0 / 0%);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+} */

@@ -1,0 +1,124 @@
+/* News & Insights Styling */
+
+.section-1 {
+    margin: 2% 0 2% 0;
+}
+.section-1 .news-header {
+    /* margin: 0 0 1% 0; */
+}
+.section-1 .section-1-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #307430;
+}
+.section-1 .section-1-subtitle {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    color: #307430;
+}
+.section-1 .news-filter {
+    /* margin: 3% 0 3% 0; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.card-img,
+.card-img-top,
+.card-img-bottom {
+    width: 100%;
+    height: 288px;
+    object-fit: cover;
+}
+
+/* [Mobile Responsive] */
+@media (max-width: 425px) {
+    .section-1 .section-1-subtitle {
+        padding: 0 2% 0 2%;
+    }
+}
+@media (max-width: 480px) {
+    .section-1 .section-1-title {
+        font-size: 24px;
+    }
+    .section-1 .section-1-subtitle {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        letter-spacing: 0.05em;
+        color: #307430;
+    }
+}
+
+/* [Imported] */
+
+.latest-news.card-header h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    height: 72px;
+    color: #307430;
+}
+.latest-news.card-header p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    height: 54px;
+    letter-spacing: 0.05em;
+
+    color: #307430;
+}
+.card__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 20px;
+
+    visibility: none;
+    transition: 0.5s ease;
+    background-color: #599059;
+}
+.card__overlay > .latest-news-overlay.card-header h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    height: 72px;
+    color: #ffffff;
+}
+.card__overlay > .latest-news-overlay.card-header p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    height: 54px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+    .card__overlay > .latest-news-overlay.card-header p {
+            margin-bottom: 30px !important;
+        }
+     .latest-news.card-header p {
+            margin-bottom: 30px !important;
+        }
+}

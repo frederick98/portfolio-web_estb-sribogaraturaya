@@ -1,0 +1,140 @@
+.companies-header {
+    margin: 0px 0;
+}
+
+.companies-header img {
+    width: 100%;
+}
+
+/* .companies-profile .row {
+    margin-left: 50px;
+} */
+
+.smk-about-left-img > img {
+    width: 100%;
+}
+
+/* .smk-location-header-logo {
+    margin: auto;
+}
+
+.smk-location-header-logo img {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+} */
+
+/* .smk-location-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 99.18%;
+    /* or 71px 
+
+    align-items: center;
+    text-align: center;
+
+    color: #307430;
+} */
+
+/* .smk-location-img {
+    margin-top: 20px;
+} */
+
+/* .smk-location-img img {
+    width: 100%;
+} */
+
+/* .smk-galery-img img {
+    width: 100%;
+} */
+
+@media screen and (max-width: 1150px) {
+    .smk-about-left {
+        padding: 0px 0px 0 30px;
+    }
+
+    .smk-about-right-bio {
+        padding: 40px 45px 0 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .smk-about-left {
+        padding: 0px 0px 0 7px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .smk-about-right-img {
+        padding: 79px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .companies-profile > .row {
+        flex-wrap: unset;
+    }
+
+    .smk-about-right-img {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .smk-about-right-bio {
+        padding: 0px 30px 0;
+    }
+
+    .smk-galery-img img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .companies-profile .row {
+        margin: 0 0 0 30px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    /* .companies-profile-pizza {
+        position: relative;
+        top: 25px;
+    } */
+
+    /* .companies-profile-smi {
+        position: relative;
+        top: 15px;
+    } */
+
+    /* .companies-profile-mip {
+        position: relative;
+        top: 15px;
+    } */
+}
+
+@media screen and (max-width: 425px) {
+    .companies-header,
+    .companies-profile,
+    .smk-about,
+    .smk-location {
+        overflow: hidden;
+    }
+
+    .companies-profile .row {
+        margin: 0 0 0 0px;
+    }
+
+    .smk-about-left {
+        padding: 0px 0px 25px 15px;
+    }
+
+    .smk-about-left a {
+        margin: auto;
+    }
+
+    .smk-about-left-img {
+        top: -45px;
+    }
+}

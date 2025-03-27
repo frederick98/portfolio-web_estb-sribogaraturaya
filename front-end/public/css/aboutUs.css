@@ -1,0 +1,571 @@
+/* Section Achievements */
+
+/* Section 1 */
+
+.section-1 .section-1-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 86px */
+
+    color: #307430;
+    text-align: left;
+}
+.section-1 .section-1-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+    letter-spacing: 0.05em;
+    color: #307430;
+    text-align: left;
+}
+.brShape1 {
+    color: #ffffff;
+    background-color: #307430;
+    background-repeat: no-repeat;
+    background-image: url('../images/assets/about/pattern_subtle-17.png');
+    background-size: 100% 100%;
+    position: relative;
+    height: 590px;
+    margin-top: 20%;
+    margin-bottom: 0;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.a-left.embed.prev.slick-prev {
+    width: 7%;
+    height: 40px;
+    object-fit: contain;
+    z-index: 1;
+    top: 105%;
+    left: 40%;
+}
+.a-right.embed.next.slick-next {
+    width: 7%;
+    height: 40px;
+    object-fit: contain;
+    top: 105%;
+    left: 50%;
+}
+
+/* Section 2 */
+.section2 {
+    padding: 2% 0 2% 0;
+    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(
+            33.3333% - 6.66667px
+        );
+    grid-gap: 10px 10px;
+    /* min-height: 245px; */
+}
+
+.section2 .section2Title {
+    margin: 0 0 1% 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.18%;
+    /* or 48px */
+    text-align: center;
+    color: #307430;
+}
+
+.section2 .section2Text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding: 30px 70px 0 70px;
+    color: #307430;
+}
+
+/* Section 3 */
+.section3 {
+    /* min-height: 688px; */
+}
+.section3 .section3Img {
+    min-height: 590px;
+}
+.section3 .section3Title {
+    text-align: left;
+    padding-bottom: 2.5%;
+    word-wrap: break-word;
+    position: relative;
+    margin: 0 0 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.18%;
+    /* or 48px */
+    color: #307430;
+}
+.section3Capt {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+    letter-spacing: 0.05em;
+    padding: 30px 0 30px 0;
+    color: #307430;
+}
+
+/* Section 4 */
+.section4 {
+    width: 1440px;
+    height: 376px;
+    background-color: #307430;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../images/assets/about/pattern_subtle-17.png');
+
+}
+.section4QuoteStart,
+.section4QuoteEnd {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 130%;
+    /* or 260px */
+    letter-spacing: 0.05em;
+    color: #f3c716;
+}
+.section4 .section4Text {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    /* or 42px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #ffffff;
+}
+.section4 .section4TextName {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin: -2% 0 0 0;
+}
+.section4 .section4TextRole {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #ffffff;
+}
+
+/* Section 5 */
+.section-5 {
+}
+.leftCol {
+    /* left: 50px; */
+    /* margin: auto; */
+}
+.rightCol {
+    display: flex;
+}
+.section-5 .section-5-text {
+    padding: 0 40px 30px 40px;
+}
+.section-5 .section-5-title {
+    color: #307430;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.18%;
+    /* or 48px */
+    color: #307430;
+}
+.section-5 .section-5-capt {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+    letter-spacing: 0.05em;
+    color: #307430;
+}
+.section-5 .section-5-img-1 {
+    width: 100%;
+    object-fit: contain;
+    background: #c4c4c4;
+    border-radius: 20px 0px 0px 20px;
+}
+.a-left.control-c.prev.slick-prev {
+    width: 10%;
+    height: 50px;
+    object-fit: contain;
+    z-index: 1;
+    top: 80%;
+    left: -20%;
+}
+.a-right.control-c.next.slick-next {
+    width: 10%;
+    object-fit: contain;
+    top: 80%;
+    right: 100%;
+    height: 50px;
+}
+@media screen and (width: 1920px) {
+    .a-left.control-c.prev.slick-prev {
+        width: 5%;
+        object-fit: contain;
+        z-index: 1;
+        top: 80%;
+        left: -20%;
+        height: 50px;
+    }
+    .a-right.control-c.next.slick-next {
+        width: 5%;
+        object-fit: contain;
+        top: 80%;
+        right: 105%;
+        height: 50px;
+    }
+}
+
+/* Section 6 */
+.section-6 {
+
+}
+.section-6 .section-6-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.18%;
+    /* or 48px */
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #307430;
+}
+
+/* Section 7 */
+.section-7 {
+    margin: 2% 0 2% 0;
+}
+.section-7 .section-7-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.18%;
+    /* or 48px */
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+}
+.section-7 .section-7-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #307430;
+    padding-top: 30px;
+}
+.section-7 .section-7-capt {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 99.18%;
+    /* or 36px */
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #307430;
+    padding-top: 10%;
+}
+.section-7 .section-7-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.section-7 .section-7-name {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 31px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #307430;
+}
+.section-7 .section-7-role {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 125%;
+    /* or 31px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #307430;
+}
+
+.desc-stories-p {
+    padding-right: 80px;
+}
+
+@media (width: 1204px) {
+    .desc-stories-p {
+        padding-right: 120px;
+    }
+}
+
+/* [Mobile Responsive] */
+
+@media (max-width: 360px) {
+    .section4 {
+        height: 530px;
+    }
+}
+@media (max-width: 390px) {
+    .brShape1 {
+        height: 200px !important;
+    }
+    .embed-class {
+        top: 70% !important;
+    }
+    .section2 .section2Title {
+        height: 50px !important;
+    }
+    .section4 {
+        height: 500px;
+    }
+}
+@media (max-width: 412px) {
+    .brShape1 {
+        height: 230px !important;
+    }
+    .embed-class {
+        top: 70% !important;
+    }
+    .section2 .section2Title {
+        height: 50px !important;
+    }
+    .section4 {
+        height: 500px;
+    }
+}
+@media (max-width: 425px) {
+    .brShape1 {
+        height: 220px;
+        margin-top: 20px;
+    }
+    .section2 .section2Title {
+        height: 80px;
+    }
+}
+@media (max-width: 480px) {
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+    .section-1 .section-1-title {
+        font-size: 24px;
+    }
+    .section-1 .section-1-text {
+        font-size: 18px;
+        margin: 10% 0 0 0;
+    }
+    .brShape1 {
+        margin-top: 10%;
+        height: 200px;
+    }
+    .embed-class {
+        top: 65% !important;
+    }
+    .om-1 {
+        height: 80px !important;
+        display: inline-flex;
+    }
+    .section2 .section2Title {
+        font-size: 24px;
+        margin: 2% 0 2% 0;
+    }
+    .section2 .section2Text {
+        font-size: 16px;
+        padding: inherit;
+    }
+    .section3 .section3Title {
+        text-align: center;
+        font-size: 24px;
+        margin: 2% 0 2% 0;
+    }
+    .content-section3 {
+        text-align: center !important;
+    }
+    .section3Img {
+        justify-content: center !important;
+    }
+    .section3Capt {
+        font-size: 18px;
+    }
+    .section4 {
+        height: 560px !important;
+    }
+    .section4QuoteStart,
+    .section4QuoteEnd {
+        font-size: 100px;
+        height: 80px !important;
+    }
+    .quote-s {
+        padding: 0 0 0 0 !important;
+    }
+    .section4 .section4Text {
+        font-size: 24px;
+    }
+    .section4 .section4TextName {
+        margin: 2% 0 0 0;
+    }
+    .section-5 .section-5-text {
+        padding: 0 10% 5% 10%;
+        text-align: center;
+    }
+    .section-5 .section-5-title {
+        font-size: 24px;
+    }
+    .section-5 .section-5-text {
+        font-size: 18px;
+    }
+    .section-6 .section-6-title {
+        font-size: 24px;
+    }
+    .our-stories {
+        margin: 0 0 20% 0 !important;
+    }
+    .u-section-6 .u-list-1 {
+        /* width: 830px; */
+        /* margin: -15px calc(((100% - 428px) / 2)) 0 auto !important; */
+    }
+    .section-7 {
+        margin: 2% 5% 2% 5%;
+    }
+    .section-7 .section-7-title {
+        font-size: 24px;
+    }
+    .section-7 .section-7-text {
+        font-size: 18px;
+    }
+    .section-7 .section-7-capt {
+        font-size: 20px;
+    }
+    .section-7 .section-7-name {
+        font-size: 16px;
+    }
+    .section-7 .section-7-role {
+        font-size: 16px;
+    }
+
+    .om-1 {
+        justify-content: center;
+    }
+
+    .r-om-1 {
+        justify-content: center;
+    }
+}
+
+/* [Imported] */
+
+.a-left.control-c-stories.prev.slick-prev {
+    width: 2%;
+    object-fit: contain;
+    left: 35%;
+    height: 25px;
+    top: 63%;
+    z-index: 1;
+}
+
+.a-right.control-c-stories.next.slick-next {
+    width: 2%;
+    object-fit: contain;
+    right: 35%;
+    height: 25px;
+    top: 63%;
+}
+
+@media (max-width: 320px) {
+    .section-4 {
+        height: 560px;
+    }
+}
+
+/* [Imported] Our Stories  */
+.u-section-6 .u-list-1 {
+    /* width: 830px; */
+    margin: -15px calc(((100% - 1440px) / 2)) 0 auto;
+}
+@media screen and (width: 1920px) {
+    .u-section-6 .u-list-1 {
+        /* width: 830px; */
+        margin: -15px calc(((100% - 1920px) / 2)) 0 auto;
+    }
+}
+.u-section-6 .u-image-1 {
+    width: 735px;
+    height: 620px;
+    margin: 0 auto 0 calc(((100% - 1440px) / 2));
+}
+.u-section-6 .u-text-7 {
+    font-weight: 700;
+    margin: -326px calc(((100% - 1440px) / 2) + 395px) 0
+        calc(((100% - 1440px) / 2) + 828px);
+    width: 310px;
+}
+
+@media screen and (width: 1080px) and (height: 2160px) {
+    .section4 {
+        height: 405px;
+    }
+
+    .brShape1 {
+        height: 365px;
+    }
+
+    .u-section-6 .u-list-1 {
+        width: 100% !important;
+    }
+}

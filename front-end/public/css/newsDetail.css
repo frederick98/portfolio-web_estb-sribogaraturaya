@@ -1,0 +1,317 @@
+/* News Details Styling */
+
+.news-header {
+    padding: 5% 0 5% 0;
+}
+.news-content-img {
+    padding: 0 0 10% 0;
+}
+.news-content-cat {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 99.18%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #307430;
+}
+.news-content-title h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.18%;
+    color: #307430;
+    padding: 0 0 5% 9px !important;
+}
+.news-content-date {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 99.18%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #307430;
+    padding: 0 0 5% 0;
+}
+.news-content-detail {
+    font-family: "Lato" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 21px !important;
+    line-height: 130% !important;
+    letter-spacing: 0.05em !important;
+    color: #307430 !important;
+}
+.news-content-detail p {
+    font-family: "Lato" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 21px !important;
+    line-height: 130% !important;
+    letter-spacing: 0.05em !important;
+    color: #307430 !important;
+}
+
+.news-content-detail p > span {
+    font-family: "Lato" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 21px !important;
+    line-height: 130% !important;
+    letter-spacing: 0.05em !important;
+    color: #307430 !important;
+}
+
+.news-content-detail p > a {
+    text-decoration-line: underline;
+    color: #dca10d;
+}
+
+
+
+.news-footer {
+    padding: 5% 0 5% 0;
+}
+
+.breadcrumb-details ol.breadcrumb {
+    background-color: #ffff;
+}
+
+li.breadcrumb-item > a {
+    color: #307430;
+}
+
+li.breadcrumb-item.active {
+    color: #307430;
+}
+
+li.breadcrumb-item.active::before {
+    content: ">";
+    color: #307430;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: #307430;
+}
+
+.insight-detail {
+    padding: 30px 113px 0 105px;
+}
+
+.insight-detail-title img {
+    width: 100%;
+    height: auto;
+}
+
+.insight-detail-footer {
+    margin-bottom: 30px;
+}
+
+.insight-detail-footer img {
+    width: 100%;
+    height: auto;
+}
+
+.insight-detail-footer-tags img {
+    width: 40px;
+    height: 40px;
+}
+
+.insight-detail-footer-tags p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    letter-spacing: 0.05em;
+
+    color: #307430;
+}
+
+.footer-tags {
+    width: 130px;
+    height: 40px;
+    background: #307430;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* or 21px */
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.insight-detail-content {
+    padding: 45px 0 45px 0;
+}
+
+.idcd img {
+    width: 100%;
+    height: auto;
+}
+
+.idcd-desc h5.idcd-desc-publish-date {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 99.18%;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    color: #307430;
+}
+
+.idcd-desc-tags h5 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 99.18%;
+    /* or 21px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #307430;
+}
+
+.right-links {
+    display: flex;
+    margin-left: -15px;
+}
+
+.right-links img {
+    width: 100%;
+    height: auto;
+}
+
+h1.idcd-desc-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 99.18%;
+    /* or 48px */
+
+    color: #307430;
+}
+
+.logo-socmed-fb {
+    font-size: 48px;
+    color: #4267b2;
+}
+
+.logo-socmed-twitter {
+    font-size: 48px;
+    color: #1da1f2;
+}
+
+.logo-socmed-wa {
+    font-size: 48px;
+    color: #25d366;
+}
+
+@media screen and (max-width: 1200px) {
+    .insight-detail-footer-tags-left .col-md-3 {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .insight-detail-footer-tags-left .col-md-3 {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .insight-detail-content .offset-3 {
+        margin-left: 0%;
+    }
+
+    .insight-detail-footer-tags-left .col-md-3 {
+        margin-left: 0px;
+    }
+
+    .right-links {
+        display: flex;
+        margin-left: -15px;
+    }
+
+    .btn.footer-tags {
+        margin-bottom: 10px;
+    }
+
+    .insight-detail {
+        padding: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .news-header {
+        padding: 2% 0 5% 0;
+    }
+    .news-content-title h2 {
+        font-size: 32px;
+    }
+    .news-content-cat {
+        font-size: 18px;
+    }
+    .news-content-date {
+        font-size: 16px;
+    }
+    .news-content-detail {
+        font-size: 16px;
+    }
+    .insight-detail-footer-tags-left button {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-socmed-fb,
+    .logo-socmed-twitter,
+    .logo-socmed-wa {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .idcd-desc h1 {
+        font-size: 38px;
+    }
+
+    .logo-socmed-fb,
+    .logo-socmed-twitter,
+    .logo-socmed-wa {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .right-links {
+        display: block;
+    }
+}
+
+@media screen and (width: 1080px) and (height: 2160px) {
+    .btn.footer-tags {
+        width: 110px;
+    }
+}
